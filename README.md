@@ -205,5 +205,3 @@ Todas las respuestas usan el mismo envelope.
 | Email ya registrado                | 409  | `EMAIL_ALREADY_EXISTS`    |
 | Pedido ya entregado                | 409  | `ORDER_ALREADY_DELIVERED` |
 | Error inesperado                   | 500  | `INTERNAL_ERROR`          |
-
-El manejo de errores es provisorio: en el Módulo 3 se reemplaza por la capa centralizada de custom errors.
