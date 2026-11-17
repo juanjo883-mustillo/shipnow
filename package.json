@@ -1,0 +1,19 @@
+{
+  "name": "shipnow-api",
+  "version": "1.0.0",
+  "description": "ShipNow API - Pre-entrega Módulo 1 (Backend III): arquitectura por capas y configuración de entorno",
+  "type": "module",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "mongoose": "^8.5.0"
+  }
+}
